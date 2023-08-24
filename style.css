@@ -1,0 +1,180 @@
+* {
+
+    font-family: monospace;
+
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+
+}
+
+#gender {
+    font-size: 20;
+    color: rgb(113, 217, 252);
+}
+
+.welcome-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25;
+    font-weight: bolder;
+}
+
+.top-2nd-header {
+    font-weight: lighter;
+    font-size: 17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+
+    font-size: 22;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(113, 217, 252);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: black;
+}
+
+
+
+
+.prompt-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 150px;
+
+}
+
+.user {
+    font-size: 20;
+}
+
+label {
+    font-size: 20;
+
+}
+
+.user::placeholder {
+    color: rgb(113, 217, 252);
+}
+
+.droplet {
+    color: rgb(113, 217, 252);
+    margin-top: 15px;
+
+}
+
+/* Second Page */
+
+.next {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 150px;
+
+}
+
+.down {
+    font-size: 20;
+    text-align: none;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.back {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 600;
+    margin-right: 43px;
+    font-size: 20;
+
+}
+
+.glass {
+    color: rgb(113, 217, 252);
+    size: 10px;
+}
+
+ul {
+
+    font-size: large;
+    font-weight: 200;
+    font-style: oblique;
+    padding: 0;
+
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.glass-of-facts {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.blue {
+    color: rgb(113, 217, 252);
+}
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 150px;
+}
+
+.intervals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 150px;
+}
+
+.alerts,
+.vals {
+    font-size: 25;
+    font-weight: 200;
+}
+
+.schedule {
+    color: rgb(113, 217, 252);
+}
+
+.sleep,
+.minutes,
+.hours {
+    color: rgb(113, 217, 252);
+}
