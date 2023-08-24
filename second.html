@@ -1,0 +1,103 @@
+<!DOCTYPE html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Quench</title>
+  </head>
+  <body>
+    <div class="facts">
+      <div class="glass-of-facts">
+        <h1>
+          <span class="auto-input"></span>
+          <i class="fas fa-glass-whiskey fa-xs glass"></i>
+        </h1>
+      </div>
+
+      <div class="benefits">
+        <ul>
+          <li>
+            <span class="blue">Enhances</span> physical performance, endurance
+            and energy levels.
+          </li>
+          <li>
+            <span class="blue"> Aids</span> digestion, nutrient absorption, and
+            eliminates waste and toxins.
+          </li>
+          <li>
+            <span class="blue">Supports</span> brain function, concentration,
+            and mental clarity.
+          </li>
+          <li>
+            <span class="blue">Hydates</span> skin, promotes elasticity, and
+            helps achieve clear complexion.
+          </li>
+        </ul>
+      </div>
+
+      <div class="create-alert">
+        <div class="alert"> 
+            <label for="Schedule Alert" class="alerts">Schedule Alert</label>
+            <label for="vlm-of-water">Daily Target : </label>
+            <input type="text" class="user" placeholder="Target (ml or L) Daily :  " autocomplete="off" >
+
+            <label for="wakeup">Waking Time : </label>
+            
+            <select name="wakeuptime" id="sleep">
+                <option value="6:00 AM" class="time">6:00 AM</option>
+                <option value="7:00 Am" class="time">7:00 AM</option>
+                <option value="8:00 AM" class="time">8:00 AM</option>
+                <option value="9:00 AM" class="time">9:00 AM</option>
+            </select>
+
+            <label for="sleep">Bed Time : </label>
+            
+            <select name="bedtime" class="sleep">
+                <option value="7:00 PM" class="time">7:00 PM</option>
+                <option value="8:00 PM" class="time">8:00 PM</option>
+                <option value="9:00 PM" class="time">9:00 PM</option>
+                <option value="10:00 PM" class="time">10:00 PM</option>
+            </select>
+
+           <div class="bottom-alert">
+            <div class="intervals">
+                <label class="vals" for="interval">Intervals</label>
+
+                <label for="hours">Hours : </label>
+                <input type="number" class="hours" placeholder="0" min="0" max="23" autocomplete="off">
+
+                <label for="mins">Minutes : </label>
+                <input type="number" class="minutes" placeholder="0" min="0" max="59" autocomplete="off"> 
+
+                <button class="gulp2" onclick="submitForm()">Gulp</button>
+
+                
+            </div>
+           </div>
+            
+             
+
+            
+
+
+
+
+
+        </div>
+      </div>
+
+
+      
+      
+        
+      
+
+    <a class="back" href="index.html"><button>Back</button></a>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="projectDumb.js"></script>
+  </body>
+</html>
